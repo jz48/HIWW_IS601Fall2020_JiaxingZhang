@@ -22,11 +22,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
-    <title>Video 2 Page</title>
+    <title>Topic 3 Page</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
-    <a class="navbar-brand mb-0 h1" href="#">TeamDJ</a>
+    <a class="navbar-brand mb-0 h1" href="#">ZJX</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -40,7 +40,7 @@
             </li>
             <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Videos
+                    Topics
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item " href="video1.html">Video 1: The Invention of the Internet</a>
@@ -91,83 +91,83 @@
                 The Domain Name System also specifies the technical functionality of the database service that is at
                 its core. It defines the DNS protocol, a detailed specification of the data structures and data
                 communication exchanges used in the DNS, as part of the Internet Protocol Suite.
-
             </p>
         </div>
         <div class="col-sm-3">
-
-
-
-</div>
+            <div class="card border rounded">
+                <img src="./pics/pic_3_1.png" width="100%" class="card-img-top" alt="pic1">
+                <div class="card-body">
+                    <h5 class="card-title">Figure 1: Domain Name Space</h5>
+                    <p>
+                        This figure illustrates the domain name space, how it store the resource record and the
+                        hierarchy structure.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="row">
             <div class="col-sm-9">
                 <h2>Examples</h2>
                 <h4>
-                    Here are two examples of the domain name:
+                    Here is a example of the how DNS works:
                 </h4>
-                <P>
-                    1.
-                </P>
                 <ul class="list-group">
-                    <li class="list-group-item">URL: https://jz48.github.io/TeamDJ-IS601-historyofInternetWebsite/</li>
-                    <li class="list-group-item">Top-level domain: io</li>
-                    <li class="list-group-item">Second-level domain: github</li>
-                    <li class="list-group-item">Hostname: jz48</li>
+                    <li class="list-group-item">1. A user types ‘example.com’ into a web browser and the query travels
+                        into the Internet and is received by a DNS recursive resolver.
+                    </li>
+                    <li class="list-group-item">2. The resolver then queries a DNS root nameserver (.).</li>
+                    <li class="list-group-item">3. The root server then responds to the resolver with the address of a
+                        Top Level Domain (TLD) DNS server (such as .com or .net), which stores the information for
+                        its domains. When searching for example.com, our request is pointed toward the .com TLD.
+                    </li>
+                    <li class="list-group-item">4. The resolver then makes a request to the .com TLD.</li>
+                    <li class="list-group-item">5. The TLD server then responds with the IP address of the domain’s
+                        nameserver, example.com.</li>
+                    <li class="list-group-item">6. Lastly, the recursive resolver sends a query to the domain’s
+                        nameserver.</li>
+                    <li class="list-group-item">7. The IP address for example.com is then returned to the resolver from
+                        the nameserver.</li>
+                    <li class="list-group-item">8. The DNS resolver then responds to the web browser with the IP address
+                        of the domain requested initially.</li>
+                    <li class="list-group-item">9. Once the 8 steps of the DNS lookup have returned the IP address for
+                        example.com, the browser is able to make the request for the web page:
+                    </li>
+                    <li class="list-group-item">10. The browser makes a HTTP request to the IP address.
+                    </li>
+                    <li class="list-group-item">11. The server at that IP returns the webpage to be rendered in the
+                        browser (step 10).
+                    </li>
                 </ul>
-                <p>2.</p>
-                <ul class="list-group">
-                    <li class="list-group-item">URL: https://en.wikipedia.org/wiki/Domain_name</li>
-                    <li class="list-group-item">Top-level domain: org</li>
-                    <li class="list-group-item">Second-level domain: wikipedia</li>
-                    <li class="list-group-item">Hostname: en</li>
-                </ul>
-                <h4>Here is an example of ICANN's work:</h4>
-                <P>
-                    One task that ICANN was asked to do was to address the issue of domain name ownership resolution for
-                    generic top-level domains (gTLDs). ICANN's attempt at such a policy was drafted in close cooperation
-                    with the World Intellectual Property Organization (WIPO), and the result has now become known as the
-                    Uniform Dispute Resolution Policy (UDRP). This policy essentially attempts to provide a mechanism for
-                    rapid, cheap and reasonable resolution of domain name conflicts, avoiding the traditional court system
-                    for disputes by allowing cases to be brought to one of a set of bodies that arbitrate domain name
-                    isputes. According to ICANN policy, domain registrants must agree to be bound by the UDRP —- they cannot
-                    get a domain name without agreeing to this.
-                </P>
-                <p>
-                    Examination of the UDRP decision patterns has caused some to conclude that compulsory domain name
-                    arbitration is less likely to give a fair hearing to domain name owners asserting defenses under the
-                    First Amendment and other laws, compared to the federal courts of appeal in particular.
-                </p>
             </div>
             <div class="col-sm-3">
-                <div class="card border rounded">
-                    <img src="./pics/pic_1_3.jpg" width="100%" class="card-img-top" alt="pic1">
-                    <div class="card-body">
-                        <h5 class="card-title">Growth of Netscape</h5>
-                    </div>
-                </div>
+
             </div>
         </div>
     <div class="row">
             <div class="col-sm-9">
                 <h2>Why we use them</h2>
                 <p>
-                    Domain names serve to identify Internet resources, such as computers, networks, and services, with a
-                    text-based label that is easier to memorize than the numerical addresses used in the Internet protocols.
+                    As human beings, we find it much easier to remember names over numbers. When you want to call
+                    your friend, you’d normally think of their name, search for it in your contact list, and voilá!
+                    Unless of course you’re some sort of mathematical genius and have a photographic memory…
                 </p>
                 <p>
-                    An important function of domain names is to provide easily recognizable and memorizable names to
-                    numerically addressed Internet resources.
+                    The DNS, or Domain Name System, works in the exact same way. It is essentially a smartphone’s
+                    contact list of domain names. (Yes, we could use the analogy of  a phone book but hey, it’s the
+                    21st century!) The DNS contains a website’s numerical IP address and translates it into its
+                    corresponding domain name. Imagine having to remember the intricate IP address numbers of all
+                    your favorite websites…
                 </p>
                 <p>
-                    Domain names are also used as simple identification labels to indicate ownership or control of a
-                    resource.
+                    The domain is your contact’s name and the IP address is their phone number.
+                    The DNS is able to retrieve a website and display it in a user’s browser. Every single website
+                    or domain name has an IP address, which displays its accurate location on the internet. And the
+                    DNS is the medium to that!
                 </p>
                 <p>
-                    ICANN's primary principles of operation have been described as helping preserve the operational
-                    stability of the Internet; to promote competition; to achieve broad representation of the global
-                    Internet community; and to develop policies appropriate to its mission through bottom-up,
-                    consensus-based processes.
+                    That’s why it’s crucial that website owners are aware of what the DNS is, how it works, and how it
+                    can be put to good use. And today, we’ll cover just that!
                 </p>
             </div>
             <div class="col-sm-3">
